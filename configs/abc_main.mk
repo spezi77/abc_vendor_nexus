@@ -27,4 +27,5 @@ PRODUCT_PACKAGES += \
 
 # Include explicitly to work around GMS issues
 PRODUCT_PACKAGES += \
-    libprotobuf-cpp-full
+    libprotobuf-cpp-full \
+    librsjni
