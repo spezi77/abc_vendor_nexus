@@ -18,7 +18,7 @@ PRODUCT_COPY_FILES += \
 
 # Pure-specific init file
 PRODUCT_COPY_FILES += \
-    vendor/nexus/prebuilt/etc/init.purenexus.rc:root/init.purenexus.rc
+    vendor/nexus/prebuilt/etc/init.abc.rc:root/init.abc.rc
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
