@@ -21,10 +21,10 @@ PRODUCT_COPY_FILES += \
     vendor/nexus/prebuilt/etc/init.abc.rc:root/init.abc.rc
 
 # Backup Tool
-PRODUCT_COPY_FILES += \
-    vendor/nexus/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
-    vendor/nexus/prebuilt/bin/backuptool.functions:install/bin/backuptool.functions \
-    vendor/nexus/prebuilt/bin/50-base.sh:system/addon.d/50-base.sh \
+#PRODUCT_COPY_FILES += \
+    #vendor/nexus/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
+    #vendor/nexus/prebuilt/bin/backuptool.functions:install/bin/backuptool.functions \
+    #vendor/nexus/prebuilt/bin/50-base.sh:system/addon.d/50-base.sh \
 
 # Security Enhanced Linux
 PRODUCT_PROPERTY_OVERRIDES += \
