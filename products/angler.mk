@@ -30,7 +30,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=angler \
     BUILD_FINGERPRINT=google/angler/angler:8.0.0/OPR6.170623.013/4283548:user/release-keys \
     PRIVATE_BUILD_DESC="angler-user 8.0.0 OPR6.170623.013 4283548 release-keys"
-
-# Addtional backup tools for dirty flash
-PRODUCT_COPY_FILES += \
-    vendor/nexus/prebuilt/generic/addon.d/91-font.sh:system/addon.d/91-font.sh
