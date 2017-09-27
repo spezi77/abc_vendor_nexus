@@ -1,7 +1,6 @@
 # ABC Extras
 
-on post-fs-data
-    # Run sysinit
+on boot
     start sysinit
 
 # adb over network
