@@ -53,4 +53,8 @@ EXCLUDE_SYSTEMUI_TESTS := true
     #audio_effects.conf
 #endif
 
+# Disable Rescue Party
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.disable_rescue=true
+
 $(call inherit-product-if-exists, vendor/nexus/prebuilt/prebuilt.mk)
