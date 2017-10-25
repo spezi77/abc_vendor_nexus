@@ -27,6 +27,10 @@ PRODUCT_COPY_FILES += \
     vendor/nexus/prebuilt/bin/backuptool.functions:install/bin/backuptool.functions \
     vendor/nexus/prebuilt/bin/50-base.sh:system/addon.d/50-base.sh \
 
+# Prebuilt busybox fstrim command
+PRODUCT_COPY_FILES += \
+    vendor/nexus/prebuilt/bin/fstrim:system/bin/fstrim
+
 # Security Enhanced Linux
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
