@@ -1,4 +1,4 @@
-# Copyright (C) 2016 The Pure Nexus Project
+# Copyright (C) 2017 The ABC rom
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -28,5 +28,5 @@ PRODUCT_MANUFACTURER := Huawei
 # Device Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=angler \
-    BUILD_FINGERPRINT=google/angler/angler:8.0.0/OPR5.170623.011/4397986:user/release-keys \
-    PRIVATE_BUILD_DESC="angler-user 8.0.0 OPR5.170623.011 4397986 release-keys"
+    BUILD_FINGERPRINT=google/angler/angler:8.1.0/OPM1.171019.011/4448085:user/release-keys \
+    PRIVATE_BUILD_DESC="angler-user 8.1.0 OPM1.171019.011 4448085 release-keys"
