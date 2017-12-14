@@ -43,12 +43,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 EXCLUDE_SYSTEMUI_TESTS := true
 
 # DU Utils Library
-#PRODUCT_BOOT_JARS += \
- #   org.dirtyunicorns.utils
+PRODUCT_BOOT_JARS += \
+   org.dirtyunicorns.utils
 
 # DU Utils Library
-#PRODUCT_PACKAGES += \
- #   org.dirtyunicorns.utils
+PRODUCT_PACKAGES += \
+   org.dirtyunicorns.utils
 
 # MusicFX advanced effects
 #ifneq ($(TARGET_NO_DSPMANAGER), true)
