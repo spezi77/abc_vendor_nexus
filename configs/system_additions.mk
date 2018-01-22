@@ -50,6 +50,10 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
    org.dirtyunicorns.utils
 
+# Packages
+PRODUCT_PACKAGES += \
+    SystemDarkTheme
+
 # MusicFX advanced effects
 #ifneq ($(TARGET_NO_DSPMANAGER), true)
 #PRODUCT_PACKAGES += \
