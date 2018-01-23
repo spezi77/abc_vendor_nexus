@@ -52,6 +52,7 @@ PRODUCT_PACKAGES += \
 
 # Packages
 PRODUCT_PACKAGES += \
+    SettingsDarkTheme \
     SystemDarkTheme
 
 # MusicFX advanced effects
