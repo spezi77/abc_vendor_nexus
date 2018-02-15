@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export Changelog=Changelog.txt
+export Changelog=$PWD/Changelog.txt
 
 if [ -f $Changelog ];
 then
