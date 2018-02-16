@@ -56,6 +56,30 @@ PRODUCT_PACKAGES += \
     SettingsDarkTheme \
     SystemDarkTheme
 
+# Overlays
+PRODUCT_PACKAGES += \
+    AmberAccent \
+    BlackAccent \
+    BlueAccent \
+    BlueGreyAccent \
+    BrownAccent \
+    CyanAccent \
+    DeepOrangeAccent \
+    DeepPurpleAccent \
+    GreenAccent \
+    GreyAccent \
+    IndigoAccent \
+    LightBlueAccent \
+    LightGreenAccent \
+    LimeAccent \
+    OrangeAccent \
+    PinkAccent \
+    PurpleAccent \
+    RedAccent \
+    TealAccent \
+    YellowAccent \
+    WhiteAccent
+
 # MusicFX advanced effects
 #ifneq ($(TARGET_NO_DSPMANAGER), true)
 #PRODUCT_PACKAGES += \
