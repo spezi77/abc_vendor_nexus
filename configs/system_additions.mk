@@ -97,4 +97,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.media_vol_steps=30 \
     ro.config.bt_sco_vol_steps=30
 
-$(call inherit-product-if-exists, vendor/nexus/prebuilt/prebuilt.mk)
+# DragonTC info
+DRAGONTC_VERSION := 7.0
+
+DTC_PATH := prebuilts/clang/host/linux-x86/$(DRAGONTC_VERSION)
+DTC_VER := $(shell cat $(DTC_PATH)/VERSION)
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.clang.version=$(DTC_VER)
+
+-include prebuilts/clang/host/linux-x86/$(DRAGONTC_VERSION)/DragonTC.mk
